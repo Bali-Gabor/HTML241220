@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;    
+}
+
+.profilkartya{
+    background-color: #ffffff;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profilkartya:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.9);
+}
+
+.profilkep{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+.nev{
+    font-size: 1.5em;
+    margin: 10px 0;
+    color:#333;
+}
+
+.leiras{
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.linkek{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.ikon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #0077b5;
+    color: #777;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.ikon:hover{
+    background-color: #005582;
+}
+
